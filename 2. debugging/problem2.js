@@ -19,9 +19,9 @@ const ceo = {
   
   var team = {};
   
-  team[ceo] = 'Kim';
-  team[scrumMaster] = 'Alice';
-  team[developer] = undefined;
+  team['ceo'] = 'Kim';
+  team['scrumMaster'] = 'Alice';
+  team['developer'] = undefined;
   
   var company = {
     name: 'Space Design',
@@ -30,8 +30,8 @@ const ceo = {
   };
   
   console.log('----{ ' + company.name + ' }----');
-  console.log('CEO: ' + company.team[ceo]);
-  console.log('Scrum master: ' + company.team[scrumMaster]);
+  console.log('CEO: ' + company.team['ceo']);
+  console.log('Scrum master: ' + company.team['scrumMaster']);
   console.log('Projected revenue: $' + company.projectedRevenue);
   
   // ----{ Space Design }----

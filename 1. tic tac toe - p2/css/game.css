@@ -12,10 +12,6 @@
   width: 33%;
 }
 
-.game-view > div input {
-  display: none;
-}
-
 .game-view > div label {
   font-family: 'Indie Flower', cursive;
   width: 50px;
